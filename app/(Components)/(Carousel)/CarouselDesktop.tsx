@@ -11,7 +11,7 @@ import {
 import { LinkCategories } from "@/utils/renderCategories"
 import { renderCategories } from "@/utils/renderCategories"
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/legacy/image"
 export function CarouselDesktop() {
 
     return (

@@ -1,10 +1,9 @@
 import React from 'react'
-
+import QuizQuestions from './QuizQuestions'
 const GeneralKnowledgeComponent = () => {
     return (
         <div>
-
-            GeneralKnowledgeComponent
+            <QuizQuestions />
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import GeneralKnowledgeComponent from '@/app/(Components)/(Quiz)/GeneralKnowledge'
+import GeneralKnowledgeComponent from '@/app/(Components)/(Quiz)/(categories)/GeneralKnowledge'
 import MathComponent from '@/app/(Components)/(Quiz)/Math'
 import GuessFlagsComponent from '@/app/(Components)/(Quiz)/GuessFlags'
 import GuessLangComponent from '@/app/(Components)/(Quiz)/GuessLang'

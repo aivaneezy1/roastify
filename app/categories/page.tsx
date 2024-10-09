@@ -1,5 +1,7 @@
 import React from 'react';
 import CategoriesCard from '../(Components)/(CardCategories)/CardCategories';
+import { LinkCategories } from '@/utils/renderCategories';
+import Link from 'next/link';
 const categoriesCardDetails = () => {
     return [
         {
@@ -44,12 +46,14 @@ const Categoriespage = () => {
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-[100px] gap-10 text-center'>
                 {categories.map((category, index) => (
                     <div key={index} className='transform transition duration-300 hover:scale-105'>
-                        <CategoriesCard
-                            images={category.images}
-                            category={category.category}
-                            description={category.description}
-                            btn={category.btn}
-                        />
+                        <Link href={LinkCategories(index + 1) || ""}>
+                            <CategoriesCard
+                                images={category.images}
+                                category={category.category}
+                                description={category.description}
+                                btn={category.btn}
+                            />
+                        </Link>
                     </div>
                 ))}
             </div>

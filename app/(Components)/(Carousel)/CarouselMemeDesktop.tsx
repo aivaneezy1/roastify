@@ -11,7 +11,7 @@ import { LinkCategories } from "@/utils/renderCategories"
 import { renderCategories } from "@/utils/renderCategories"
 import { renderMemePics } from '@/utils/renderMemePics'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 const CarouselMemeDesktop = () => {
     return (
         <Carousel
