@@ -1,9 +1,9 @@
 import React from 'react'
-
+import QuizQuestions from '../QuizQuestions'
 const GuessLangComponent = () => {
     return (
         <div>
-            GuessLangComponent
+            <QuizQuestions />
         </div>
     )
 }

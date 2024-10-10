@@ -1,9 +1,9 @@
 import React from 'react'
-
+import QuizQuestions from '../QuizQuestions'
 const MathComponent = () => {
     return (
         <div>
-            MathComponent
+            <QuizQuestions />
         </div>
     )
 }
